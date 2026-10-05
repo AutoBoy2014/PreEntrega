@@ -1,11 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Poppins:wght@400;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>La Pagina De Auto</title>
+    </head>
+    <body>
+        <header>
+            <div class="div-logo"><a class="logo" href="./index.html"><img class="logo-imagen" src="./img/Logo.png" alt="" />La Tienda De Auto</a></div>
+            <nav class="header-nav" aria-label="Navegación principal">
+                <ul>
+                    <li class="text-secondary"><a href="./index.html" aria-current="page">Inicio</a></li>
+                    <li class="text-secondary"><a href="./pages/contacto.html">Contacto</a></li>
+                </ul>       
+            </nav>
+        </header>
+        <main>
+            <section class="inicio">
+                <h1 class="text-secondary">Bienvenido!</h1>
+                <p class="parrafo">
+                    En esta pagina podras encontrar todos los servicios disponibles ya sea de modding o de coaching en variedad de juegos.
+                </p>
+            </section>
+            <section class="servicios" aria-labelledby="titulo-servicios">
+                <h2 class="titulo-servicios text-secondary" id="titulo-servicios">Mis Servicios</h2>
+                <div class="contenedor-tarjetas">
+                    <article class="card text-dark">
+                        <img src="./img/Deadlock_img1.jpg" alt="Budín de limón glaseado" />
+                        <h3 class="text-secondary">Coaching de Deadlock</h3>
+                        <p>Una sesion de coaching sobre una repeticion o mientras juegas una partida</p>
+                        <p class="precio">$9000</p>
+                        <button class="btn bg-secondary text-secondary" type="button">Agregar al carrito</button>
+                    </article>
+                    <article class="card text-dark">
+                        <img src="./img/Deadlock_img2.jpg" alt="Croissant recién horneado" />
+                        <h3 class=" text-secondary">Coaching de Deadlock x5</h3>
+                        <p>Cinco sesiones de coaching sobre una repeticion o mientras juegas una partida</p>
+                        <p class="precio bg-sol text-dark">$35000</p>
+                        <button class="btn bg-secondary text-secondary" type="button">Agregar al carrito</button>
+                    </article>
+                    <article class="card text-dark">
+                        <img src="./img/Minecraft_img1.jpg" alt="Pancakes servidos" />
+                        <h3 class="text-secondary">Addon basico para Minecraft Bedrock Edition</h3>
+                        <p>Se creara un addon con funciones basicas basadas en las ideas aportadas (2 mobs con animaciones y comportamientos basicos, menos de 3 estructuras de biomas simples, menos de 10 bloques/items custom).</p>
+                        <p class="precio">$50000</p>
+                        <button class="btn bg-secondary text-secondary" type="button">Agregar al carrito</button>
+                    </article>
+                    <article class="card text-dark">
+                        <img src="./img/Minecraft_img2.jpg" alt="Pan casero de masa madre" />
+                        <h3 class="text-secondary">Addon avanzado para Minecraft Bedrock Edition</h3>
+                        <p>Se creara un addon con funciones avanzadas basadas en las ideas aportadas (hasta 5 mobs con animaciones y comportamientos avanzados, hasta 5 estructuras de biomas, hasta 15 bloques/items custom, dimension custom).</p>
+                        <p class="precio">$100000</p>
+                        <button class="btn bg-secondary text-secondary" type="button">Agregar al carrito</button>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Sitio realizado por Martin Cardacci para Talento Tech</p>
+            <nav aria-label="Redes sociales">
+                <ul class="footer-list">
+                       <li><a href="https://x.com/Auto_Boy_3024" aria-label="X"><img src="../img/X_logo.png" alt="X" /></a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
 </html>

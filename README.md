@@ -1,1 +1,1 @@
-esto es un readme
+Esta es una pagina hecha apartir de todo lo aprendido durante las clases. El objetivo de esta pagina por ahora es servir como una manera en la cual la gente pueda comisionarme, comunicarse y acceder facilmente a mis redes sociales.
