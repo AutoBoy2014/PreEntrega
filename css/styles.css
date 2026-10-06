@@ -96,7 +96,7 @@ footer {
 .logo-imagen {
   width: 5rem;
   height: 5rem;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .header-nav {
@@ -206,6 +206,48 @@ footer p {
   margin-top: auto;
   color: var(--color-acento);
   font-weight: 700;
+}
+
+.experiencia {
+  margin: 4rem auto 2rem;
+}
+
+.contenedor-experiencia {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.bloque-experiencia {
+  display: flex;
+  flex: 1 1 30rem;
+  flex-direction: column;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  background-color: var(--color-tarjeta);
+}
+
+.bloque-experiencia h3 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.bloque-experiencia p {
+  flex: 1;
+  font-family: var(--fuente-descripciones);
+  line-height: 1.7;
+}
+
+.gif-experiencia {
+  display: block;
+  width: 100%;
+  height: 34rem;
+  margin-top: 2rem;
+  border: 2px dashed var(--color-borde);
+  border-radius: 0.8rem;
+  background-color: var(--color-fondo);
+  object-fit: fill;
 }
 
 .btn {
